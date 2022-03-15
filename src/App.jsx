@@ -48,7 +48,7 @@ const App = () => {
             <input value={username} onChange={e => setUsername(e.target.value)} />
 
 
-            <p>You are logging in as {username}</p>
+            <p>You are logging in as username: {username}</p>
 
             <button onClick={handleButtonClick}>
                 Click Me
